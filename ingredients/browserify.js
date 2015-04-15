@@ -1,4 +1,4 @@
-var utilities = require('laravel-elixir/ingredients/commands/Utilities');
+var utilities = require('./commands/Utilities');
 var source = require('vinyl-source-stream');
 var parsePath = require('parse-filepath');
 var browserify = require('browserify');
